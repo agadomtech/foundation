@@ -10228,6 +10228,21 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
+@media (min-width: 360px) and (orientation : portrait) {
+  .masthead {
+    min-height: 100vh;
+  }
+  .masthead h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-top: 8rem;
+  }
+}
+@media (min-width: 576px) and (orientation : landscape) {
+  .masthead {
+    width: 100vw;
+  }
+}
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
