@@ -10231,6 +10231,7 @@ body {
 @media (min-width: 360px) and (orientation : portrait) {
   .masthead {
     min-height: 100vh;
+    width: auto;
   }
   .masthead h1 {
     font-size: 2rem;
@@ -10240,7 +10241,8 @@ body {
 }
 @media (min-width: 576px) and (orientation : landscape) {
   .masthead {
-    width: 100vw;
+    min-width: 100vw;
+    height: auto;
   }
   .masthead h1 {
     font-size: 2rem;
