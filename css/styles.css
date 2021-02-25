@@ -10235,12 +10235,16 @@ body {
   .masthead h1 {
     font-size: 2rem;
     line-height: 3rem;
-    padding-top: 5rem;
+    padding-top: 4rem;
   }
 }
 @media (min-width: 576px) and (orientation : landscape) {
   .masthead {
     width: 100vw;
+  }
+  .masthead h1 {
+    font-size: 2rem;
+    line-height: 3rem;
   }
 }
 @media (min-width: 768px) {
